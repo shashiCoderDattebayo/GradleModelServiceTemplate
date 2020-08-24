@@ -1,5 +1,7 @@
 package com.company.problem.services;
 
+import com.company.problem.models.SampleModel;
+
 public interface SampleService {
-    public  int getSample(int y);
+    public SampleModel getSample(int y);
 }
