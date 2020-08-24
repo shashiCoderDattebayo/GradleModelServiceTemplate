@@ -13,7 +13,7 @@ public class App {
     private static final Logger logger = LoggerFactory.getLogger(App.class);
     private static final ThreadPoolExecutor threadPoolExecutor = (ThreadPoolExecutor) Executors.newFixedThreadPool(5);
 
-    private String getGreeting() {
+    public String getGreeting() {
         return "Hello world.";
     }
 
